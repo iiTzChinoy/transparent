@@ -3,6 +3,6 @@
     "description": "A transparent theme!",
     "version": "1.0.0.1",
     "author": "iiTzChinoy",
-    "theme": "Transparent.theme.css",
+    "theme": "transparent.theme.css",
     "license": "MIT"
 }
