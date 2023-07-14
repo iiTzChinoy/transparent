@@ -1,65 +1,62 @@
 /**
-    * @name Vibrant Glass
-    * @version 1.1
-    * @description Simple customizable glass theme.
-    * @author Kaynooo#8080
-    *
-    * @source https://github.com/Kayno0o/vibrant-glass-theme
-**/
+ * @name Translucence
+ * @version 1.0.6.3
+ * @description A translucent/frosted glass Discord theme
+ * @author CapnKitten
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
 
-/*
- __      ___ _                     _      _____ _               
- \ \    / (_) |                   | |    / ____| |              
-  \ \  / / _| |__  _ __ __ _ _ __ | |_  | |  __| | __ _ ___ ___ 
-   \ \/ / | | '_ \| '__/ _` | '_ \| __| | | |_ | |/ _` / __/ __|
-    \  /  | | |_) | | | (_| | | | | |_  | |__| | | (_| \__ \__ \
-     \/   |_|_.__/|_|  \__,_|_| |_|\__|  \_____|_|\__,_|___/___/
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
-*/
+:root {
+	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+	--app-blur: 6px;
+	--app-margin: 24px;
+	--app-radius: 8px; /*	-	*/
+	
+	--accent-hue: 156;
+	--accent-saturation: 77.5%;
+	--accent-lightness: 47.1%;
+	--accent-opacity: 1;
+	--accent-text-color: #000; /*	-	*/
 
-@import url("https://raw.githack.com/Kayno0o/vibrant-glass-theme/main/glass_remote.theme.css");
+	--sidebar-color: rgba(0,0,0,0.4);
+	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 
-/*
-to customize rgb color : https://www.google.com/search?q=color+picker and copy the RGB thing
-to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
-*/
+	--message-color: rgba(0,0,0,0.4);
+	--message-radius: 8px;
+	--message-padding-top: 8px;
+	--message-padding-side: 8px; /*	-	*/
+	
+	--reply-hue: 226;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1; /*	-	*/
 
-/* DEFINE MAIN VARIABLES */
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
 
-.theme-dark {
-    /*
-    name of the Discord window (top left)
-    default : "Vibrant Glass" */
-    --window-name: "Vibrant Glass";
-    /*
-    color of the Discord window name
-    default : rgb(255, 255, 255) */
-    --window-name-color: rgb(255, 255, 255);
-    /*
-    opacity, but lighter
-    default : 0.2 */
-    --light-opacity: 0.2;
-    /*
-    opacity used everywhere to make this glass effect 
-    default : 0.5 */
-    --opacity: 0.5;
-    /*
-    opacity, but darker
-    default : 0.75 */
-    --dark-opacity: 0.75;
-    /*
-    it's just the Discord background URL, it has to be a direct link (ending with .png, .jpg, .gif)
-    default : url('https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png') */
-    --background-url: url('');
-    /*
-    background color used for opacity
-    default : 0, 0, 0 */
-    --background-color: 0, 0, 0;
-}
+	--card-color: rgba(0,0,0,0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: #000;
+	--button-radius: 16px; /*	-	*/
 
-/* BACKGROUND */
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
 
-.app-2CXKsg>.bg-1QIAus {
-    background: var(--background-url) !important;
-    background-size: cover !important;
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
 }
